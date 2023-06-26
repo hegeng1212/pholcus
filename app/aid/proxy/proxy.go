@@ -12,6 +12,7 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+	"fmt"
 
 	"github.com/hegeng1212/pholcus/app/downloader/request"
 	"github.com/hegeng1212/pholcus/app/downloader/surfer"
@@ -65,13 +66,18 @@ func (self *Proxy) Count() int32 {
 
 // 更新代理IP列表
 func (self *Proxy) Update() *Proxy {
-	f, err := os.Open(config.PROXY)
+
+	b, err := self.getProxyByUrl()
+
 	if err != nil {
-		// logs.Log.Error("Error: %v\n", err)
-		return self
+		f, err := os.Open(config.PROXY)
+		if err != nil {
+			// logs.Log.Error("Error: %v\n", err)
+			return self
+		}
+		b, _ = ioutil.ReadAll(f)
+		f.Close()
 	}
-	b, _ := ioutil.ReadAll(f)
-	f.Close()
 
 	proxysIPType := self.proxyIPTypeRegexp.FindAllString(string(b), -1)
 	for _, proxy := range proxysIPType {
@@ -91,6 +97,38 @@ func (self *Proxy) Update() *Proxy {
 	self.findOnline()
 
 	return self
+}
+
+func (self *Proxy) getProxyByUrl() (proxys []byte, err error) {
+
+	url := "http://39.103.185.241:44567/api/v1.0/get-all-proxy-ip" // 替换成您要请求的URL
+
+	// 发送GET请求
+	resp, err := http.Get(url)
+	if err != nil {
+		fmt.Println("请求出错:", err)
+		return
+	}
+	defer resp.Body.Close()
+
+	// 读取响应的内容
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		fmt.Println("读取响应出错:", err)
+		return
+	}
+
+	// 使用空格作为分隔符将字符串分割成数组
+	arr := strings.Split(string(body), " ")
+
+	newArr := make([]string, 0)
+	// 打印数组中的每个元素
+	for _, val := range arr {
+		val = fmt.Sprintf("http://%s", strings.Trim(val, " "))
+		newArr = append(newArr, val)
+	}
+
+	return []byte(strings.Join(newArr, "\n")), nil
 }
 
 // 筛选在线的代理IP
