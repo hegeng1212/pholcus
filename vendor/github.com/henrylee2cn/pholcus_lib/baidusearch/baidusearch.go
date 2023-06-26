@@ -6,6 +6,8 @@ import (
 	. "github.com/henrylee2cn/pholcus/app/spider"           //必需
 	"github.com/henrylee2cn/pholcus/common/goquery"         //DOM解析
 	"github.com/henrylee2cn/pholcus/logs"                   //信息输出
+	"github.com/henrylee2cn/pholcus/app/downloader/surfer/agent"
+	"math/rand"
 	// . "github.com/henrylee2cn/pholcus/app/spider/common"          //选用
 
 	// net包
@@ -24,7 +26,8 @@ import (
 	// 其他包
 	// "fmt"
 	"math"
-	// "time"
+	"net/http"
+	"time"
 )
 
 func init() {
@@ -37,7 +40,7 @@ var BaiduSearch = &Spider{
 	// Pausetime: 300,
 	Keyin:        KEYIN,
 	Limit:        LIMIT,
-	EnableCookie: false,
+	EnableCookie: true,
 	// 禁止输出默认字段 Url/ParentUrl/DownloadTime
 	NotDefaultField: true,
 	// 命名空间相对于数据库名，不依赖具体数据内容，可选
@@ -60,10 +63,15 @@ var BaiduSearch = &Spider{
 						} else {
 							duplicatable = false
 						}
+						header := make(http.Header)
+						l := len(agent.UserAgents["common"])
+						r := rand.New(rand.NewSource(time.Now().UnixNano()))
+						header.Add("User-Agent", agent.UserAgents["common"][r.Intn(l)])
 						ctx.AddQueue(&request.Request{
 							Url:        "http://www.baidu.com/s?ie=utf-8&nojc=1&wd=" + ctx.GetKeyin() + "&rn=50&pn=" + strconv.Itoa(50*loop[0]),
 							Rule:       aid["Rule"].(string),
 							Reloadable: duplicatable,
+							Header: header,
 						})
 					}
 					return nil
