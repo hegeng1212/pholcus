@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/hegeng1212/pholcus/exec"
-	_ "github.com/hegeng1212/pholcus_lib" // 此为公开维护的spider规则库
+	_ "github.com/hegeng1212/pholcus/pholcus_lib" // 此为公开维护的spider规则库
 	// _ "github.com/hegeng1212/pholcus_lib_pte" // 同样你也可以自由添加自己的规则库
 )
 
