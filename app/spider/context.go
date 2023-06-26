@@ -11,6 +11,7 @@ import (
 	"sync"
 	"time"
 	"unsafe"
+	"fmt"
 
 	"golang.org/x/net/html/charset"
 
@@ -112,6 +113,7 @@ func (self *Context) AddQueue(req *request.Request) *Context {
 		req.SetReferer(self.GetUrl())
 	}
 
+	fmt.Println(fmt.Printf("AddQueue req %#v", req))
 	self.spider.RequestPush(req)
 	return self
 }
@@ -180,6 +182,7 @@ func (self *Context) JsAddQueue(jreq map[string]interface{}) *Context {
 		req.SetReferer(self.GetUrl())
 	}
 
+	fmt.Println(fmt.Printf("JsAddQueue req %#v", req))
 	self.spider.RequestPush(req)
 	return self
 }

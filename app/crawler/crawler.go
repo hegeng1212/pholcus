@@ -5,6 +5,7 @@ import (
 	"math/rand"
 	"runtime"
 	"time"
+	"fmt"
 
 	"github.com/henrylee2cn/pholcus/app/downloader"
 	"github.com/henrylee2cn/pholcus/app/downloader/request"
@@ -142,6 +143,7 @@ func (self *crawler) Process(req *request.Request) {
 		}
 	}()
 
+	fmt.Println(fmt.Printf("Process req %#v", req))
 	var ctx = self.Downloader.Download(sp, req) // download page
 
 	if err := ctx.GetError(); err != nil {
