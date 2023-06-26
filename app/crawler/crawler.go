@@ -7,12 +7,12 @@ import (
 	"time"
 	"fmt"
 
-	"github.com/henrylee2cn/pholcus/app/downloader"
-	"github.com/henrylee2cn/pholcus/app/downloader/request"
-	"github.com/henrylee2cn/pholcus/app/pipeline"
-	"github.com/henrylee2cn/pholcus/app/spider"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
+	"github.com/hegeng1212/pholcus/app/downloader"
+	"github.com/hegeng1212/pholcus/app/downloader/request"
+	"github.com/hegeng1212/pholcus/app/pipeline"
+	"github.com/hegeng1212/pholcus/app/spider"
+	"github.com/hegeng1212/pholcus/logs"
+	"github.com/hegeng1212/pholcus/runtime/cache"
 )
 
 // 采集引擎

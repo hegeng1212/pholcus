@@ -2,13 +2,13 @@ package pholcus_lib
 
 // 基础包
 import (
-	"github.com/henrylee2cn/pholcus/app/downloader/request" //必需
-	. "github.com/henrylee2cn/pholcus/app/spider"           //必需
-	"github.com/henrylee2cn/pholcus/common/goquery"         //DOM解析
-	"github.com/henrylee2cn/pholcus/logs"                   //信息输出
-	"github.com/henrylee2cn/pholcus/app/downloader/surfer/agent"
+	"github.com/hegeng1212/pholcus/app/downloader/request" //必需
+	. "github.com/hegeng1212/pholcus/app/spider"           //必需
+	"github.com/hegeng1212/pholcus/common/goquery"         //DOM解析
+	"github.com/hegeng1212/pholcus/logs"                   //信息输出
+	"github.com/hegeng1212/pholcus/app/downloader/surfer/agent"
 	"math/rand"
-	// . "github.com/henrylee2cn/pholcus/app/spider/common"          //选用
+	// . "github.com/hegeng1212/pholcus/app/spider/common"          //选用
 
 	// net包
 	// "net/http" //设置http.Header

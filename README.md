@@ -1,10 +1,10 @@
-# Pholcus [![GitHub release](https://img.shields.io/github/release/henrylee2cn/pholcus.svg?style=flat-square)](https://github.com/henrylee2cn/pholcus/releases) [![report card](https://goreportcard.com/badge/github.com/henrylee2cn/pholcus?style=flat-square)](http://goreportcard.com/report/henrylee2cn/pholcus) [![github issues](https://img.shields.io/github/issues/henrylee2cn/pholcus.svg?style=flat-square)](https://github.com/henrylee2cn/pholcus/issues?q=is%3Aopen+is%3Aissue) [![github closed issues](https://img.shields.io/github/issues-closed-raw/henrylee2cn/pholcus.svg?style=flat-square)](https://github.com/henrylee2cn/pholcus/issues?q=is%3Aissue+is%3Aclosed) [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/henrylee2cn/pholcus)
+# Pholcus [![GitHub release](https://img.shields.io/github/release/hegeng1212/pholcus.svg?style=flat-square)](https://github.com/hegeng1212/pholcus/releases) [![report card](https://goreportcard.com/badge/github.com/hegeng1212/pholcus?style=flat-square)](http://goreportcard.com/report/hegeng1212/pholcus) [![github issues](https://img.shields.io/github/issues/hegeng1212/pholcus.svg?style=flat-square)](https://github.com/hegeng1212/pholcus/issues?q=is%3Aopen+is%3Aissue) [![github closed issues](https://img.shields.io/github/issues-closed-raw/hegeng1212/pholcus.svg?style=flat-square)](https://github.com/hegeng1212/pholcus/issues?q=is%3Aissue+is%3Aclosed) [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/hegeng1212/pholcus)
 
 Pholcus（幽灵蛛）是一款纯 Go 语言编写的支持分布式的高并发爬虫软件，仅用于编程学习与研究。
 
 它支持单机、服务端、客户端三种运行模式，拥有Web、GUI、命令行三种操作界面；规则简单灵活、批量任务并发、输出方式丰富（mysql/mongodb/kafka/csv/excel等）；另外它还支持横纵向两种抓取模式，支持模拟登录和任务暂停、取消等一系列高级功能。
 
-![image](https://github.com/henrylee2cn/pholcus/raw/master/doc/icon.png)
+![image](https://github.com/hegeng1212/pholcus/raw/master/doc/icon.png)
 
 ## 免责声明
 
@@ -14,15 +14,15 @@ Pholcus（幽灵蛛）是一款纯 Go 语言编写的支持分布式的高并发
 
 ## 爬虫原理
 
-![image](https://github.com/henrylee2cn/pholcus/raw/master/doc/module.png)
+![image](https://github.com/hegeng1212/pholcus/raw/master/doc/module.png)
 
 &nbsp;
 
-![image](https://github.com/henrylee2cn/pholcus/raw/master/doc/project.png)
+![image](https://github.com/hegeng1212/pholcus/raw/master/doc/project.png)
 
 &nbsp;
 
-![image](https://github.com/henrylee2cn/pholcus/raw/master/doc/distribute.png)
+![image](https://github.com/hegeng1212/pholcus/raw/master/doc/distribute.png)
 
 
 ## 框架特点
@@ -48,7 +48,7 @@ Pholcus（幽灵蛛）是一款纯 Go 语言编写的支持分布式的高并发
 ## 下载安装
 
 ```
-go get -u -v github.com/henrylee2cn/pholcus
+go get -u -v github.com/hegeng1212/pholcus
 ```
 
 ## 创建项目
@@ -57,7 +57,7 @@ go get -u -v github.com/henrylee2cn/pholcus
 package main
 
 import (
-    "github.com/henrylee2cn/pholcus/exec"
+    "github.com/hegeng1212/pholcus/exec"
     // _ "pholcus_lib_pte" // 同样你也可以自由添加自己的规则库
 )
 
@@ -73,31 +73,31 @@ func main() {
 ## 编译运行
 正常编译方法
 ```
-cd {{replace your gopath}}/src/github.com/henrylee2cn/pholcus
+cd {{replace your gopath}}/src/github.com/hegeng1212/pholcus
 go install 或者 go build
 ```
 Windows下隐藏cmd窗口的编译方法
 ```
-cd {{replace your gopath}}/src/github.com/henrylee2cn/pholcus
+cd {{replace your gopath}}/src/github.com/hegeng1212/pholcus
 go install -ldflags="-H=windowsgui -linkmode=internal" 或者 go build -ldflags="-H=windowsgui -linkmode=internal"
 ```
 查看可选参数: 
 ```
 pholcus -h
 ```
-![image](https://github.com/henrylee2cn/pholcus/raw/master/doc/help.jpg)
+![image](https://github.com/hegeng1212/pholcus/raw/master/doc/help.jpg)
 
 &nbsp;
 
 > *<font size="2">Web版操作界面截图如下：*
 
-![image](https://github.com/henrylee2cn/pholcus/raw/master/doc/webshow_1.png)
+![image](https://github.com/hegeng1212/pholcus/raw/master/doc/webshow_1.png)
 
 &nbsp;
 
 > *<font size="2">GUI版操作界面之模式选择界面截图如下*
 
-![image](https://github.com/henrylee2cn/pholcus/raw/master/doc/guishow_0.jpg)
+![image](https://github.com/hegeng1212/pholcus/raw/master/doc/guishow_0.jpg)
 
 &nbsp;
 

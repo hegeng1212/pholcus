@@ -3,11 +3,11 @@ package pipeline
 import (
 	"sort"
 
-	"github.com/henrylee2cn/pholcus/app/pipeline/collector"
-	"github.com/henrylee2cn/pholcus/common/kafka"
-	"github.com/henrylee2cn/pholcus/common/mgo"
-	"github.com/henrylee2cn/pholcus/common/mysql"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
+	"github.com/hegeng1212/pholcus/app/pipeline/collector"
+	"github.com/hegeng1212/pholcus/common/kafka"
+	"github.com/hegeng1212/pholcus/common/mgo"
+	"github.com/hegeng1212/pholcus/common/mysql"
+	"github.com/hegeng1212/pholcus/runtime/cache"
 )
 
 // 初始化输出方式列表collector.DataOutputLib

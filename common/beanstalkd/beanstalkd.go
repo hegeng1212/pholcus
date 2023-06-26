@@ -3,8 +3,8 @@ package beanstalkd
 import (
 	"net/url"
 	"github.com/kr/beanstalk"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/config"
+	"github.com/hegeng1212/pholcus/logs"
+	"github.com/hegeng1212/pholcus/config"
 	"github.com/pkg/errors"
 )
 

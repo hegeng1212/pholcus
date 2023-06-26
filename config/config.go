@@ -3,14 +3,14 @@ package config
 import (
 	"strings"
 
-	"github.com/henrylee2cn/pholcus/logs/logs"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
+	"github.com/hegeng1212/pholcus/logs/logs"
+	"github.com/hegeng1212/pholcus/runtime/cache"
 )
 
 // 软件信息。
 const (
 	VERSION   string = "v1.3.4"                                      // 软件版本号
-	AUTHOR    string = "henrylee2cn"                                 // 软件作者
+	AUTHOR    string = "hegeng1212"                                 // 软件作者
 	NAME      string = "Pholcus幽灵蛛数据采集"                              // 软件名
 	FULL_NAME string = NAME + "_" + VERSION + " （by " + AUTHOR + "）" // 软件全称
 	TAG       string = "pholcus"                                     // 软件标识符

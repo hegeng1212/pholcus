@@ -4,10 +4,10 @@ import (
 	"github.com/lxn/walk"
 	. "github.com/lxn/walk/declarative"
 
-	"github.com/henrylee2cn/pholcus/app"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"github.com/hegeng1212/pholcus/app"
+	"github.com/hegeng1212/pholcus/config"
+	"github.com/hegeng1212/pholcus/logs"
+	"github.com/hegeng1212/pholcus/runtime/status"
 )
 
 func offlineWindow() {

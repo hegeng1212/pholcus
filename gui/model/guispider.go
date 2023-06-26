@@ -9,7 +9,7 @@ import (
 
 	"github.com/lxn/walk"
 
-	"github.com/henrylee2cn/pholcus/app/spider"
+	"github.com/hegeng1212/pholcus/app/spider"
 )
 
 type (

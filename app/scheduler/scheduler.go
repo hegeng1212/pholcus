@@ -3,10 +3,10 @@ package scheduler
 import (
 	"sync"
 
-	"github.com/henrylee2cn/pholcus/app/aid/proxy"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"github.com/hegeng1212/pholcus/app/aid/proxy"
+	"github.com/hegeng1212/pholcus/logs"
+	"github.com/hegeng1212/pholcus/runtime/cache"
+	"github.com/hegeng1212/pholcus/runtime/status"
 )
 
 // 调度器

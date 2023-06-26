@@ -22,43 +22,43 @@ github.com/go-sql-driver/mysql
 github.com/golang/snappy
 # github.com/hashicorp/go-uuid v1.0.1
 github.com/hashicorp/go-uuid
-# github.com/henrylee2cn/goutil v0.0.0-20190807075143-e8afa09140e9
-github.com/henrylee2cn/goutil
-# github.com/henrylee2cn/pholcus_lib v0.0.0-20180312025545-3ffb61273b75
-github.com/henrylee2cn/pholcus_lib
-github.com/henrylee2cn/pholcus_lib/IJGUC
-github.com/henrylee2cn/pholcus_lib/alibaba
-github.com/henrylee2cn/pholcus_lib/baidunews
-github.com/henrylee2cn/pholcus_lib/baidusearch
-github.com/henrylee2cn/pholcus_lib/car_home
-github.com/henrylee2cn/pholcus_lib/chinanews
-github.com/henrylee2cn/pholcus_lib/fang_resell_list
-github.com/henrylee2cn/pholcus_lib/filetest
-github.com/henrylee2cn/pholcus_lib/ganji_gongsi
-github.com/henrylee2cn/pholcus_lib/googlesearch
-github.com/henrylee2cn/pholcus_lib/hollandandbarrett
-github.com/henrylee2cn/pholcus_lib/jdsearch
-github.com/henrylee2cn/pholcus_lib/jiban
-github.com/henrylee2cn/pholcus_lib/jingdong
-github.com/henrylee2cn/pholcus_lib/kaola
-github.com/henrylee2cn/pholcus_lib/lewa
-github.com/henrylee2cn/pholcus_lib/miyabaobei
-github.com/henrylee2cn/pholcus_lib/people
-github.com/henrylee2cn/pholcus_lib/qq_avatar
-github.com/henrylee2cn/pholcus_lib/shunfenghaitao
-github.com/henrylee2cn/pholcus_lib/taobao
-github.com/henrylee2cn/pholcus_lib/taobaosearch
-github.com/henrylee2cn/pholcus_lib/wangyi
-github.com/henrylee2cn/pholcus_lib/weibo_fans
-github.com/henrylee2cn/pholcus_lib/wukongwenda
-github.com/henrylee2cn/pholcus_lib/zhihu_bianji
-github.com/henrylee2cn/pholcus_lib/zhihu_daily
-github.com/henrylee2cn/pholcus_lib/zolpc
-github.com/henrylee2cn/pholcus_lib/zolphone
-github.com/henrylee2cn/pholcus_lib/zolslab
-# github.com/henrylee2cn/teleport v1.0.0
-github.com/henrylee2cn/teleport
-github.com/henrylee2cn/teleport/debug
+# github.com/hegeng1212/goutil v0.0.0-20190807075143-e8afa09140e9
+github.com/hegeng1212/goutil
+# github.com/hegeng1212/pholcus_lib v0.0.0-20180312025545-3ffb61273b75
+github.com/hegeng1212/pholcus_lib
+github.com/hegeng1212/pholcus_lib/IJGUC
+github.com/hegeng1212/pholcus_lib/alibaba
+github.com/hegeng1212/pholcus_lib/baidunews
+github.com/hegeng1212/pholcus_lib/baidusearch
+github.com/hegeng1212/pholcus_lib/car_home
+github.com/hegeng1212/pholcus_lib/chinanews
+github.com/hegeng1212/pholcus_lib/fang_resell_list
+github.com/hegeng1212/pholcus_lib/filetest
+github.com/hegeng1212/pholcus_lib/ganji_gongsi
+github.com/hegeng1212/pholcus_lib/googlesearch
+github.com/hegeng1212/pholcus_lib/hollandandbarrett
+github.com/hegeng1212/pholcus_lib/jdsearch
+github.com/hegeng1212/pholcus_lib/jiban
+github.com/hegeng1212/pholcus_lib/jingdong
+github.com/hegeng1212/pholcus_lib/kaola
+github.com/hegeng1212/pholcus_lib/lewa
+github.com/hegeng1212/pholcus_lib/miyabaobei
+github.com/hegeng1212/pholcus_lib/people
+github.com/hegeng1212/pholcus_lib/qq_avatar
+github.com/hegeng1212/pholcus_lib/shunfenghaitao
+github.com/hegeng1212/pholcus_lib/taobao
+github.com/hegeng1212/pholcus_lib/taobaosearch
+github.com/hegeng1212/pholcus_lib/wangyi
+github.com/hegeng1212/pholcus_lib/weibo_fans
+github.com/hegeng1212/pholcus_lib/wukongwenda
+github.com/hegeng1212/pholcus_lib/zhihu_bianji
+github.com/hegeng1212/pholcus_lib/zhihu_daily
+github.com/hegeng1212/pholcus_lib/zolpc
+github.com/hegeng1212/pholcus_lib/zolphone
+github.com/hegeng1212/pholcus_lib/zolslab
+# github.com/hegeng1212/teleport v1.0.0
+github.com/hegeng1212/teleport
+github.com/hegeng1212/teleport/debug
 # github.com/jcmturner/gofork v0.0.0-20190328161633-dc7c13fece03
 github.com/jcmturner/gofork/encoding/asn1
 github.com/jcmturner/gofork/x/crypto/pbkdf2

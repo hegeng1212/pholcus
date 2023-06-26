@@ -1,4 +1,4 @@
-// Copyright 2015 henrylee2cn Author. All Rights Reserved.
+// Copyright 2015 hegeng1212 Author. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@ var (
 	once_surf    sync.Once
 	once_phantom sync.Once
 	tempJsDir    = "./tmp"
-	// phantomjsFile = filepath.Clean(path.Join(os.Getenv("GOPATH"), `/src/github.com/henrylee2cn/surfer/phantomjs/phantomjs`))
+	// phantomjsFile = filepath.Clean(path.Join(os.Getenv("GOPATH"), `/src/github.com/hegeng1212/surfer/phantomjs/phantomjs`))
 	phantomjsFile = `./phantomjs`
 	cookieJar, _  = cookiejar.New(nil)
 )

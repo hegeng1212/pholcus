@@ -4,9 +4,9 @@ import (
 	"github.com/lxn/walk"
 	"github.com/lxn/walk/declarative"
 
-	. "github.com/henrylee2cn/pholcus/gui/model"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	. "github.com/hegeng1212/pholcus/gui/model"
+	"github.com/hegeng1212/pholcus/runtime/cache"
+	"github.com/hegeng1212/pholcus/runtime/status"
 )
 
 // GUI输入

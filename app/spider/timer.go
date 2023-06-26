@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/henrylee2cn/pholcus/logs"
+	"github.com/hegeng1212/pholcus/logs"
 )
 
 type Timer struct {

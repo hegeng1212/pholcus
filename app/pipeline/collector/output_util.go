@@ -1,7 +1,7 @@
 package collector
 
 import (
-	"github.com/henrylee2cn/pholcus/logs"
+	"github.com/hegeng1212/pholcus/logs"
 )
 
 // 主命名空间相对于数据库名，不依赖具体数据内容，可选

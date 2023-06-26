@@ -1,9 +1,9 @@
 package crawler
 
 import (
-	. "github.com/henrylee2cn/pholcus/app/spider"
-	"github.com/henrylee2cn/pholcus/common/util"
-	"github.com/henrylee2cn/pholcus/logs"
+	. "github.com/hegeng1212/pholcus/app/spider"
+	"github.com/hegeng1212/pholcus/common/util"
+	"github.com/hegeng1212/pholcus/logs"
 )
 
 // 采集引擎中规则队列

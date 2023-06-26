@@ -3,7 +3,7 @@ package teleport
 
 import (
 	"encoding/json"
-	"github.com/henrylee2cn/teleport/debug"
+	"github.com/hegeng1212/teleport/debug"
 	"log"
 	"time"
 )
@@ -21,7 +21,7 @@ const (
 	// 心跳操作符
 	HEARTBEAT = "+heartbeat+"
 	// 默认包头
-	DEFAULT_PACK_HEADER = "henrylee2cn"
+	DEFAULT_PACK_HEADER = "hegeng1212"
 	// SERVER默认UID
 	DEFAULT_SERVER_UID = "server"
 	// 默认端口

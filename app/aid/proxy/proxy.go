@@ -13,11 +13,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/henrylee2cn/pholcus/app/downloader/request"
-	"github.com/henrylee2cn/pholcus/app/downloader/surfer"
-	"github.com/henrylee2cn/pholcus/common/ping"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
+	"github.com/hegeng1212/pholcus/app/downloader/request"
+	"github.com/hegeng1212/pholcus/app/downloader/surfer"
+	"github.com/hegeng1212/pholcus/common/ping"
+	"github.com/hegeng1212/pholcus/config"
+	"github.com/hegeng1212/pholcus/logs"
 )
 
 type Proxy struct {

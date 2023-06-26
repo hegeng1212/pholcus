@@ -1,8 +1,8 @@
 package downloader
 
 import (
-	"github.com/henrylee2cn/pholcus/app/downloader/request"
-	"github.com/henrylee2cn/pholcus/app/spider"
+	"github.com/hegeng1212/pholcus/app/downloader/request"
+	"github.com/hegeng1212/pholcus/app/spider"
 )
 
 // The Downloader interface.

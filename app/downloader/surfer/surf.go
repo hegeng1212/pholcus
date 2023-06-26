@@ -1,4 +1,4 @@
-// Copyright 2015 henrylee2cn Author. All Rights Reserved.
+// Copyright 2015 hegeng1212 Author. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -27,8 +27,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/henrylee2cn/goutil"
-	"github.com/henrylee2cn/pholcus/app/downloader/surfer/agent"
+	"github.com/hegeng1212/goutil"
+	"github.com/hegeng1212/pholcus/app/downloader/surfer/agent"
 )
 
 // Surf is the default Download implementation.
