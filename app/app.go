@@ -19,7 +19,7 @@ import (
 	"github.com/hegeng1212/pholcus/logs"
 	"github.com/hegeng1212/pholcus/runtime/cache"
 	"github.com/hegeng1212/pholcus/runtime/status"
-	"github.com/hegeng1212/teleport"
+	"github.com/henrylee2cn/teleport"
 )
 
 type (

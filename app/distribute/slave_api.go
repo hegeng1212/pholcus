@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/hegeng1212/pholcus/logs"
-	"github.com/hegeng1212/teleport"
+	"github.com/henrylee2cn/teleport"
 )
 
 // 创建从节点API

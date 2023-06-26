@@ -22,8 +22,8 @@ github.com/go-sql-driver/mysql
 github.com/golang/snappy
 # github.com/hashicorp/go-uuid v1.0.1
 github.com/hashicorp/go-uuid
-# github.com/hegeng1212/goutil v0.0.0-20190807075143-e8afa09140e9
-github.com/hegeng1212/goutil
+# github.com/henrylee2cn/goutil v0.0.0-20190807075143-e8afa09140e9
+github.com/henrylee2cn/goutil
 # github.com/hegeng1212/pholcus_lib v0.0.0-20180312025545-3ffb61273b75
 github.com/hegeng1212/pholcus_lib
 github.com/hegeng1212/pholcus_lib/IJGUC
@@ -56,9 +56,9 @@ github.com/hegeng1212/pholcus_lib/zhihu_daily
 github.com/hegeng1212/pholcus_lib/zolpc
 github.com/hegeng1212/pholcus_lib/zolphone
 github.com/hegeng1212/pholcus_lib/zolslab
-# github.com/hegeng1212/teleport v1.0.0
-github.com/hegeng1212/teleport
-github.com/hegeng1212/teleport/debug
+# github.com/henrylee2cn/teleport v1.0.0
+github.com/henrylee2cn/teleport
+github.com/henrylee2cn/teleport/debug
 # github.com/jcmturner/gofork v0.0.0-20190328161633-dc7c13fece03
 github.com/jcmturner/gofork/encoding/asn1
 github.com/jcmturner/gofork/x/crypto/pbkdf2

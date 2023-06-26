@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hegeng1212/goutil"
+	"github.com/henrylee2cn/goutil"
 	"github.com/hegeng1212/pholcus/app/downloader/surfer/agent"
 )
 
