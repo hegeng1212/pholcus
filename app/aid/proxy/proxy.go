@@ -275,7 +275,7 @@ func (self *Proxy) findUsable(proxy string, testHost string) (alive bool, timede
 	req.SetProxy(proxy)
 	resp, err := self.surf.Download(req)
 
-	if resp.StatusCode != http.StatusOK {
+	if resp == nil || resp.StatusCode != http.StatusOK {
 		return false, 0
 	}
 
